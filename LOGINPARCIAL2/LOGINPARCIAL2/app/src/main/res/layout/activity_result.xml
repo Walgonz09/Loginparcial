@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Nombre -->
+        <TextView
+            android:id="@+id/tvNombre"
+            android:text="Nombre Apellido"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Título sección respuestas -->
+        <TextView
+            android:id="@+id/tvTituloRespuestas"
+            android:text="Respuestas (Parte Teórica):"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Respuesta 1 -->
+        <TextView
+            android:id="@+id/tvQ1"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Respuesta 2 -->
+        <TextView
+            android:id="@+id/tvQ2"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Respuesta 3 -->
+        <TextView
+            android:id="@+id/tvQ3"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Respuesta 4 -->
+        <TextView
+            android:id="@+id/tvQ4"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Respuesta 5 -->
+        <TextView
+            android:id="@+id/tvQ5"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Respuesta 6 -->
+        <TextView
+            android:id="@+id/tvQ6"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Respuesta 7 -->
+        <TextView
+            android:id="@+id/tvQ7"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Respuesta 8 -->
+        <TextView
+            android:id="@+id/tvQ8"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Opcional: botón volver (si quieres permitir volver al login) -->
+        <Button
+            android:id="@+id/btnVolver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Volver" />
+
+    </LinearLayout>
+</ScrollView>
+
